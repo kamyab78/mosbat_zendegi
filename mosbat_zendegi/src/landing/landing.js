@@ -18,8 +18,9 @@ class landing extends Component {
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className='ml-auto'>
+                                <Nav.Link href='/login' style={{marginRight:'450px'}} className='d-none d-lg-block' >ورود/عضویت</Nav.Link>
                                 <Nav.Link href='/about' style={{ marginRight: '30px' }} className="d-none d-lg-block" >درباره ما</Nav.Link>
-                                <Nav.Link style={{ marginRight: '30px' }} className="d-none d-lg-block" >چند رسانه ای</Nav.Link>
+                                <Nav.Link style={{ marginRight: '30px' }} className="d-none d-lg-block " >چند رسانه ای</Nav.Link>
                                 <Nav.Link style={{ marginRight: '30px' }} className="d-none d-lg-block" >خدمات</Nav.Link>
                                 <Nav.Link style={{ marginRight: '30px' }} className="d-none d-lg-block" >مدیریت موسسه</Nav.Link>
                                 <Nav.Link href='/' style={{ marginRight: '60px' }} className="d-none d-lg-block" >صفحه اصلی</Nav.Link>
@@ -30,6 +31,7 @@ class landing extends Component {
                                 <Nav.Link style={{ textAlign: 'right' }} >خدمات</Nav.Link>
                                 <Nav.Link style={{ textAlign: 'right' }} >چند رسانه ای</Nav.Link>
                                 <Nav.Link style={{ textAlign: 'right' }} >درباره ما</Nav.Link>
+                                <Nav.Link style={{ textAlign: 'right' }} >ورود/عضویت</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>

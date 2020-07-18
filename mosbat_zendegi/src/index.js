@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import {BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom'
 import Landing from './landing/landing'
 import About from "./about/about"
+import Login from './login/login'
 const App = () => {
   return (
     <Router>
@@ -10,7 +11,7 @@ const App = () => {
            
             <Route exact path="/" component={Landing}/>
             <Route path="/about" component={About} />
-          
+            <Route path="/login" component={Login} />
     </Switch>           
     </Router>
 
